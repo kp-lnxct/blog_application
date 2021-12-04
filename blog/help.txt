@@ -1,0 +1,51 @@
+# Persmission
+
+Active 
+Staff status
+Superuser status
+
+
+Lecturer-----5
+
+models create   
+see the migrate file 
+python manage.py makemigrations  after
+python manage.py sqlmigrate 0001<- file name
+
+python manage.py shell
+
+you can see the all User
+you can Modeify All Users Details
+you can get all models class & data 
+
+show article html
+
+
+Lecturer ------------------ 6
+message.debug
+messages.info
+messages.warning
+messages.success
+messages.error
+
+createsuper registeration form 
+    from django.contrib.auth.forms import UserCreationForm
+    from django.contrib.auth.forms import  <class name>    === form.py class with  form
+    from django.contrib.auth.forms import  <class name>    === form.py class with  crispy form
+
+        pip install django-crispy-form
+        installed app ->   crispy_forms  
+        CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+Lecturer -------------------- 7
+
+    admin login-logout  built in  views
+    admin profile template 
+    
+    from django.contrib.auth.decorators import login_required
+
+
+Lecturer --------------------  8
+
+
+
